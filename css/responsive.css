@@ -1,0 +1,173 @@
+@media only screen and (min-width: 0px) and (max-width: 767px) {
+    #offcanvasRight {
+        width: 80%;
+    }
+
+    .navbar-toggler {
+        display: block;
+    }
+
+    .navbar .navbar-nav {
+        display: none;
+    }
+
+    #Home .Myself {
+        position: absolute;
+        bottom: 12%;
+        right: 10%;
+    }
+    #Home .icons {
+        display: flex;
+        justify-content: center;
+        position: absolute;
+        bottom: 10%;
+        right: 16%;
+    }
+    #Home .icons i {
+        font-size: 25px;
+        color: white;
+        padding: 0 10px;
+    }
+
+    .Myself h4 {
+        font-size: 30px;
+        color: #ff671f;
+        font-weight: bold;
+    }
+    .Myself p {
+        text-align: end;
+        font-size: 16px;
+    }
+
+    #About {
+        margin-left: 0;
+    }
+
+    #Resume {
+        margin-left: 0;
+    }
+
+    .Resume .resume-item h4 {
+        font-size: 18px;
+        font-weight: bold;
+    }
+
+    #Projects {
+        margin-left: 0;
+    }
+
+    #Contact {
+        margin-left: 0;
+    }
+
+    .About .my-skills img {
+        min-width: 50%;
+    }
+
+    .About .my-skills h6 {
+        text-align: left;
+        font-size: 18px;
+        padding-top: 15px;
+    }
+
+    .contact p {
+        font-size: 16px;
+        padding-left: 65px;
+        font-family: 'Josefin Sans', sans-serif !important;
+        font-weight: 600;
+    }
+
+    .contact p a {
+        text-decoration: none;
+        color: #45505F;
+        font-size: 16px;
+        font-weight: 600;
+    }
+}
+
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+    #offcanvasRight {
+        width: 50%;
+    }
+
+    .navbar-toggler {
+        display: block;
+    }
+
+    .navbar .navbar-nav {
+        display: none;
+    }
+
+    #Home .Myself {
+        position: absolute;
+        bottom: 7%;
+        right: 27%;
+    }
+
+    .Myself h4 {
+        font-size: 30px;
+        color: #ff671f;
+        font-weight: bold;
+    }
+    .Myself p {
+        text-align: end;
+        font-size: 16px;
+    }
+    #Home .icons {
+        display: flex;
+        justify-content: center;
+        position: absolute;
+        bottom: 7%;
+        right: 39%;
+    }
+    #Home .icons i {
+        font-size: 25px;
+        color: white;
+        padding: 0 10px;
+    }
+    #About {
+        margin-left: 0;
+    }
+
+    #Resume {
+        margin-left: 0;
+    }
+
+    .Resume .resume-item h4 {
+        font-size: 18px;
+        font-weight: bold;
+    }
+
+    #Projects {
+        margin-left: 0;
+    }
+
+    #Contact {
+        margin-left: 0;
+    }
+
+    .About .my-skills img {
+        min-width: 50%;
+    }
+
+    .About .my-skills h6 {
+        text-align: left;
+        font-size: 18px;
+        padding-top: 15px;
+    }
+
+    .contact p {
+        font-size: 16px;
+        padding-left: 65px;
+        font-family: 'Josefin Sans', sans-serif !important;
+        font-weight: 600;
+    }
+
+    .contact p a {
+        text-decoration: none;
+        color: #45505F;
+        font-size: 16px;
+        font-weight: 600;
+    }
+}
